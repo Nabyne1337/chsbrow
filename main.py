@@ -65,8 +65,8 @@ class Browser(QMainWindow):
         if ok:
             self.page_loaded = True
             self.start_button.setEnabled(True)  # разреш.
-            self.page_loaded = False
-            self.start_button.setEnabled(False)  # запрет
+            #self.page_loaded = False
+            #self.start_button.setEnabled(False)  # запрет
 
     def run_js_script(self):
         if self.page_loaded:
