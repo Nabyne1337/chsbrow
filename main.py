@@ -75,7 +75,7 @@ class Browser(QMainWindow):
             function main() {
     let chessboard = document.querySelector("wc-chess-board");
     if (chessboard == null || !chessboard) {
-        return { status: "false", error: "Не удаётся запустить скрипт. Пожалуйста, делайте это тогда в самой игре или попробуйте умереть." };
+        return { status: "false", error: "Не удаётся запустить скрипт. Пожалуйста, делайте это тогда в самой игре" };
     }
 
     var player_colour = 'white';
